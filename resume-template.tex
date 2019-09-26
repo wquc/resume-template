@@ -1,0 +1,96 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{fontawesome}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+%\usepackage{mathpazo}
+\usepackage{url}
+\urlstyle{same}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\usepackage[  left = 0.75in,
+			   top = 0.05in,
+			 right = 0.75in,
+			bottom = 0.1in]{geometry}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+\begin{document}
+\begin{minipage}{.6\textwidth}
+\Huge \textbf{LATEX TEMPLATE}
+\end{minipage}
+\begin{minipage}{.4\textwidth}
+\faPhone     ~ 123-456-7890 \\ 
+\faEnvelopeO ~ \href{mailto:(add-your-email-here@mail.com)}{(add-your-email-here)@mail.com} \\
+\faGithub    ~ \url{(add-your-github-link-here)}\\
+\faLinkedin  ~ \url{(add-your-linkedin-link-here)}
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summary}
+Add your personal summary here.
+\end{rSection}
+\begin{rSection}{Education}
+{\bf University of A, City, State}        \hfill {Nov 2019} \\ 
+Ph.D. in Major A                          \hfill {GPA: 4.0/4.0}  
+
+{\bf University of B, City, State}        \hfill {June 2012} \\ 
+B.Sc. in Major B                          \hfill {GPA: 4.0/4.0}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{University of A}{Jan 2018 - Present}{(Add your occupation here)}{CITY, STATE}
+\item[$\bullet$] \textit{Projects 1}
+\item (What was done, what technique was used and what was the impact?)
+
+\item[$\bullet$] \textit{Projects 2}
+\item (What was done, what technique was used and what was the impact?)
+\end{rSubsection}
+
+\begin{rSubsection}{University of B}{Aug 2013 - Dec 2017}{(Add your occupation here)}{CITY, STATE}
+
+\item[$\bullet$] \textit{Projects 1}
+\item (What was done, what technique was used and what was the impact?)
+
+\item[$\bullet$] \textit{Projects 2}
+\item (What was done, what technique was used and what was the impact?)
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+Latex
+\end{rSection}
+
+%\vspace*{0.1in} %%% Use this vspace if PUBLICATION is on 2nd page.
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Publication}
+Publication 1
+
+Publication 2
+
+\end{rSection}
+
+
+
+\end{document}
